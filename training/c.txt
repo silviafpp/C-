@@ -1,0 +1,58 @@
+Compile 
+
+g++ a.cpp -o aa_b 
+./aa_b 
+
+Github Commands
+
+git add -A - add all files
+git commit -m "example" - commit the file with a "message"
+git push - updade the repository
+git status - shows the status 
+
+C++
+
+#include <iostream> - header files add functionality to the program
+using namespace std - we can use names for objects and variables from the standard library
+int main() - function,  any code inside its curly brackets {} will be executed.
+cout - is an object used with the "<<" - insertion operator. Will output "aaa" 
+
+int myNum = 5;               // Integer (whole number without decimals)
+double myFloatNum = 5.99;    // Floating point number (with decimals)    -um double precisa de mais memória
+char myLetter = 'D';         // Character
+string myText = "Hello";     // String (text)                            -conjunto de chars
+bool myBoolean = true;       // Boolean (true or false) 
+
+void - uma função que não devolve nada
+
+int main - devolve um numero inteiro
+
+qualquer numero elevado a 0 dá 1
+
+&&  	Logical and Returns true if both statements are true x < 5 &&  x < 10 	
+||  	Logical or 	Returns true if one of the statements is true x < 5 || x < 4 	
+! 	    Logical not Reverse the result, returns false if the result is true !(x < 5 && x < 10)
+
+{} - reserva um bloco de codigo
+
+void - vazio
+
+int main() {
+
+    setup();
+}
+
+
+//////////////
+
+4 metodos para ler portas em arduino 
+
+digitalRead - ler
+digitalWrite - mandar um sinal
+analogRead - 
+analogWrite -
+
+diferença? 
+
+digital - sempre valores discretos
+analógico - valores intermediários possíveis (0.01 , 0.566 , 4.565 , 8.55…)
